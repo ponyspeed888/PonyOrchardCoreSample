@@ -1,0 +1,128 @@
+[
+  {
+    "q": "What type of company are you?",
+    "choices": [
+      {
+        "text": "We are a head hunter, I want to match you to a client, need client interview",
+        "score": -10000
+      },
+      {
+        "text": "We are a software development house developing software for other company, no client interview needed",
+        "score": 1
+      },
+      {
+        "text": "We are a company developing packaged software",
+        "score": 10
+      },
+      {
+        "text": "We are a in house IT Department",
+        "score": 20
+      }
+    ],
+    "a": null
+  },
+  {
+    "q": "How important is English to you?",
+    "choices": [
+      {
+        "text": "Critical, we need to communicate with client or co worker in English speaking country",
+        "score": 100
+      },
+      {
+        "text": "Essential, we need it extensive for our product search and development ",
+        "score": 20
+      },
+      {
+        "text": "Nice to have",
+        "score": 2
+      },
+      {
+        "text": "All code, document and communication must be in Chinese",
+        "score": -100
+      }
+    ],
+    "a": null
+  },
+  {
+    "q": "What Windows Platform skill you are interested?",
+    "choices": [
+      {
+        "text": "Desktop",
+        "score": 10
+      },
+      {
+        "text": "Server asp.net",
+        "score": 10
+      },
+      {
+        "text": "Server asp.net CORE",
+        "score": 1000
+      },
+      {
+        "text": "None of the above",
+        "score": 0
+      }
+    ],
+    "a": null
+  },
+  {
+    "q": "What Android Platform skill you are interested?",
+    "choices": [
+      {
+        "text": "Android APP",
+        "score": 10
+      },
+      {
+        "text": "Android + Microsoft Backend",
+        "score": 100
+      },
+      {
+        "text": "Android + other backend",
+        "score": 0
+      },
+      {
+        "text": "None of the above",
+        "score": 0
+      }
+
+    ],
+    "a": null
+  },
+  {
+    "q": "How many of these skill you interested? (Google Cloud, Azure, Angular 4+, Chrome Extension)",
+    "choices": [
+      {
+        "text": "More than four",
+        "score": 500
+      },
+      {
+        "text": "More than two",
+        "score": 100
+      },
+      {
+        "text": "One of them",
+        "score": 50
+      },
+      {
+        "text": "None of the above",
+        "score": 0
+      }
+
+    ],
+    "a": null
+  },
+  {
+    "q": "Have the resume reviewed and approved by a technical hiring manager?",
+    "choices": [
+      {
+        "text": "No, only by HR",
+        "score": -1000
+      },
+      {
+        "text": "Yes, the hiring manager is interested in you",
+        "score": 10
+      }
+    ],
+    "a": null
+  }
+]

@@ -1,0 +1,127 @@
+[
+  {
+    "q": "Is working on personal project (non paid, as personal hobby) since 2009 a problem for you?",
+    "choices": [
+      {
+        "text": "It is a problem,  we need all our candidate worked on paid project (You should skip the rest of this screening questionnaire)",
+        "score": -10000
+      },
+      {
+        "text": "A big minus, but your other professional quality make it still a good possiblity",
+        "score": 0
+      },
+      {
+        "text": "Not at all, we don't care, as long as you have what we need",
+        "score": 10
+      },
+      {
+        "text": "It's a big plus, since we hear from our social network about the circumstance",
+        "score": 1000
+      }
+
+
+    ],
+    "a": null
+  },
+
+  {
+    "q": "If you pass the first question, given that I lack paid, successful executed project as reference for the past 10 years, why are you still continue?",
+    "choices": [
+      {
+        "text": "We don't need any successful project as references, we are confident about our interviewing skill, we make the hiring decision purely by your intervew performance",
+        "score": 0
+      },
+      {
+        "text": "we have not hear gossip from our social network about your, but We are desperate, and we will interview anyone",
+        "score": 1000
+      },
+      {
+        "text": "we have heard gossip from our social network about your, and we feel that you are the kind of guy who we want on our team to ensure the project goes well",
+        "score": 10000
+      }
+   
+    ],
+    "a": null
+  },
+
+
+  {
+    "q": "I am current living in Taiwan, are interview has to be conducted remotely, is this a problem?",
+    "choices": [
+      {
+        "text": "I am afraid so",
+        "score": -10000
+      },
+      {
+        "text": "That's OK, we hire by remote interview all the time",
+        "score": 1000
+      }
+
+    ],
+    "a": null
+  },
+
+  {
+    "q": "I am current living in Taiwan, Will you provide relocation expenses or sign on bonus for moving to US/Canada ?",
+    "choices": [
+      {
+        "text": "I am afraid not",
+        "score": 0
+      },
+      {
+        "text": "It's possible, but not definitely, we will decide after we finished the interview",
+        "score": 500
+      },
+      {
+        "text": "Absolutely, we provide relocation or sign on bonus",
+        "score": 1000
+      }
+
+    ],
+    "a": null
+  },
+  {
+    "q": "What is the status of your project?",
+    "choices": [
+      {
+        "text": "It's mostly OK, we just need more help",
+        "score": 0
+      },
+      {
+        "text": "It is not start yet, you will be working on the project since inception",
+        "score": 100
+      },
+      {
+        "text": "We have problems, we need help, and we are willing to take good suggestion",
+        "score": 1000
+      },
+      {
+        "text": "Completely stucked, we need you to look at it because we have heard that you are very good at finding the reason why a project failed",
+        "score": 10000
+      }
+    ],
+    "a": null
+  },
+  {
+    "q": "If you are a recruiter, do you already have one or two client that you believe is a good fit?",
+    "choices": [
+      {
+        "text": "We are a company, not a recruiter",
+        "score": 100
+      },
+      {
+        "text": "We are a recruiter, we just want to pre screening you before we match you to a clinet",
+        "score": -1000
+      },
+      {
+        "text": "We are a recruiter, and yes, we have a few clients in mind already",
+        "score": 100
+      },
+      {
+        "text": "We are a recruiter, we worked or interview you before, and we are interested in bring you back after these years",
+        "score": 10000
+      }
+    ],
+    "a": null
+  }
+]

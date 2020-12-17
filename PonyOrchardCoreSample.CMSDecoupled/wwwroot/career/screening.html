@@ -1,0 +1,86 @@
+<!DOCTYPE html><html><head>
+    <base href="/career/">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Screening Questions</title>
+
+    
+        <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.css">
+        <link rel="stylesheet" href="/css/site.css">
+    
+        <style>
+
+          .question-radio-group {
+              display: inline-flex;
+              background-color:peru ;
+              flex-direction: column;
+            }
+            
+            
+          
+          </style>
+    
+          <script>
+          
+          function getQueryVariable(variable) {
+            var query = window.location.search.substring(1);
+            var vars = query.split('&');
+            for (var i = 0; i < vars.length; i++) {
+                var pair = vars[i].split('=');
+                if (decodeURIComponent(pair[0]) == variable) {
+                    return decodeURIComponent(pair[1]);
+                }
+            }
+    
+            console.log('Query variable %s not found', variable);
+          }
+    
+    
+            var gNomail = getQueryVariable ( "nomail") ;
+            var gSource = getQueryVariable ( "source") ;
+    
+          </script>
+    
+    
+</head>
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                  <a class="navbar-brand" href="/">MVCCore21</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                  </ul>
+
+    
+            </div>
+        </div>
+    </nav>
+
+ 
+    <div class="container body-content">
+        
+
+      <app-root xxx="true"></app-root>
+
+
+        <hr>
+        <footer>
+            <p>© 2020</p>
+        </footer>
+    </div>
+
+    
+        <script src="/lib/jquery/dist/jquery.js"></script>
+        <script src="/lib/bootstrap/dist/js/bootstrap.js"></script>
+        <script src="/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0"></script>
+    
+    
+
+    
+    
+
+
+<script type="text/javascript" src="/career/runtime.js"></script><script type="text/javascript" src="/career/polyfills.js"></script><script type="text/javascript" src="/career/styles.js"></script><script type="text/javascript" src="/career/vendor.js"></script><script type="text/javascript" src="/career/main.js"></script></body></html>
